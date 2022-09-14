@@ -59,7 +59,7 @@ if(!isMatch){
 
 const token = generateToken(user);
 
-res.status(200).json({user});
+res.status(200).json({token});
 
 };
 
